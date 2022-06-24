@@ -6,6 +6,9 @@
   height: 480px;
   font-weight: bold;
 }
+.menu {
+  margin-top: -35px;
+}
 .imgheader {
   width: 90px;
 }
@@ -504,3 +507,203 @@ align-items: flex-end;
 .foot p{
   line-height: 2;
 }
+
+label {
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  width: 26px;
+  margin-top: -55px;
+  float: right;
+}
+#toggle {
+  display: none;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .header{
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  
+
+  }
+  .nav {
+    float: right;
+    margin-top: 20px;
+  }
+  label {
+    display: block;
+    cursor: pointer;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+  .menu a {
+    display: block;
+    border-bottom: 1px solid #07a3e9;
+    margin: 0;
+  }
+  
+  #toggle:checked + .menu {
+    display: block;
+
+  }
+  .imgheader {
+    padding-top: 15px;
+    width: 90px;
+  }
+  .content{
+    font-weight: normal !important;
+    display : flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .head h1 {
+    font-size: 15px;
+    color: #333;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+  .content .image {
+  max-width : 150px;
+  max-height : 300px;
+  }
+  .how_it_works {
+    width: 400px; 
+  }
+  .how_it_works h1 {
+    color:#333;
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+
+  .imgs{
+    width: 50px;
+    height: 50px;
+  
+  }
+  .imgbg{
+    width: 90px;
+    height: 90px;
+  }
+  .imgh{
+    
+    width: 120px;
+    height: 120px;
+  }
+  .students {
+    padding: 10px 5px;
+    margin-top: 10px;
+    height: 2000px;
+    
+  } 
+
+  .opinion {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 60px;
+    float: left;
+  }
+ 
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 7px;
+    float: left;
+    margin-top: 30px;
+    
+  }
+  .pricing {
+    width: 400px;
+  }
+  .ribbon {
+    font-size: 8px;
+    padding: 2px 8px;
+    
+  }
+  .cadre h2 {
+    font-size: 9px;
+  }
+  .cash {
+    font-size: 30px;
+  }
+ 
+  .cadre h4{
+    font-size: 8px;
+  }
+  .liner > div {
+    font-size: 8px;
+  }
+  
+  .tips {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -100px;
+  }
+
+
+  .container {
+    width: 400px;
+    display:grid;
+  }
+  .container img {
+    width: 100%;
+  }
+  .shape {
+    width: 90%;
+  }
+
+  label {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    width: auto;
+    padding-left: 8px;
+    padding-top: 30px;
+  }
+  select,
+  input {
+    width: 100%;
+    margin-bottom: 20px;
+    
+  }
+
+  .gridbox{
+  display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap:16px;
+  align-items: flex-end;
+  }
+  .footer{    
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .footer > div {
+    width: 400px;
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+
+}
+
+
+  
+  
+  
+
+
+
+
